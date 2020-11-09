@@ -125,7 +125,7 @@
                 if(empty($_POST["pass3"])){
                     $mess1= "ERROR:パスワードを入力してください";
                 }elseif($pass3 != konyanta){
-                    $mess2= "ERROR:パスワードが違います";
+                    $mess2= "ERROR:パスワードが違いますよ";
                 }else{
                     $sql = 'SELECT * FROM tb_7';
                 	$stmt = $pdo->query($sql);
